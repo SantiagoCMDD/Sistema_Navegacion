@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_66041c9afbc9169dc8a01e96c1bacde3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_66041c9afbc9169dc8a01e96c1bacde3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_66041c9afbc9169dc8a01e96c1bacde3 = L.map(
+                "map_66041c9afbc9169dc8a01e96c1bacde3",
+                {
+                    center: [4.7, -74.05],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2f05f18d20a70261385db7b714e575eb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var marker_5421fecaba39596d5c0739627a67d138 = L.marker(
+                [4.763056, -74.0456679],
+                {}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var icon_c860203fa8d38e6dfaa5873f64670904 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5421fecaba39596d5c0739627a67d138.setIcon(icon_c860203fa8d38e6dfaa5873f64670904);
+        
+    
+        var popup_2080ac0cd0993cd81023fa1916704129 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c97bb212e7d300a310c146b3fb11a1db = $(`<div id="html_c97bb212e7d300a310c146b3fb11a1db" style="width: 100.0%; height: 100.0%;">Centro Comercial Santafe 4.76306, -74.04567</div>`)[0];
+                popup_2080ac0cd0993cd81023fa1916704129.setContent(html_c97bb212e7d300a310c146b3fb11a1db);
+            
+        
+
+        marker_5421fecaba39596d5c0739627a67d138.bindPopup(popup_2080ac0cd0993cd81023fa1916704129)
+        ;
+
+        
+    
+    
+            var marker_f1b3499c4da9d662510ddf4bad5ee634 = L.marker(
+                [4.7018081, -74.0412263],
+                {}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var icon_3cfe9d9c2d506c66175e287bf3ee8dde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1b3499c4da9d662510ddf4bad5ee634.setIcon(icon_3cfe9d9c2d506c66175e287bf3ee8dde);
+        
+    
+        var popup_0d7eb97d1ca3e7c970021b9ad52a7248 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d4ce4d0c2d1cac47cefceb3ce989e5f = $(`<div id="html_2d4ce4d0c2d1cac47cefceb3ce989e5f" style="width: 100.0%; height: 100.0%;">Centro Comercial Unicentro 4.70181, -74.04123</div>`)[0];
+                popup_0d7eb97d1ca3e7c970021b9ad52a7248.setContent(html_2d4ce4d0c2d1cac47cefceb3ce989e5f);
+            
+        
+
+        marker_f1b3499c4da9d662510ddf4bad5ee634.bindPopup(popup_0d7eb97d1ca3e7c970021b9ad52a7248)
+        ;
+
+        
+    
+    
+            var marker_a6c3f67ae2fdbb4b2df2e04d78d02948 = L.marker(
+                [4.7411318, -74.0647445],
+                {}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var icon_378a40d705fb7495ddb565cdc6a14329 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6c3f67ae2fdbb4b2df2e04d78d02948.setIcon(icon_378a40d705fb7495ddb565cdc6a14329);
+        
+    
+        var popup_a7fd38e884ae8ed826f259e62f088f5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5476fe227207c76f22fe7390062d2a9 = $(`<div id="html_a5476fe227207c76f22fe7390062d2a9" style="width: 100.0%; height: 100.0%;">Arturo Calle 153 4.74113, -74.06474</div>`)[0];
+                popup_a7fd38e884ae8ed826f259e62f088f5f.setContent(html_a5476fe227207c76f22fe7390062d2a9);
+            
+        
+
+        marker_a6c3f67ae2fdbb4b2df2e04d78d02948.bindPopup(popup_a7fd38e884ae8ed826f259e62f088f5f)
+        ;
+
+        
+    
+    
+            var marker_c951533849e1fabcbb2ed473e37da9c8 = L.marker(
+                [4.7121455, -74.0710275],
+                {}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var icon_94fe1bf940422f94008f539b9bceb4ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c951533849e1fabcbb2ed473e37da9c8.setIcon(icon_94fe1bf940422f94008f539b9bceb4ec);
+        
+    
+        var popup_2e6b54c536cf69a86483129eea5ec55b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_731ac824e01d802b45da6dfa7ecf7744 = $(`<div id="html_731ac824e01d802b45da6dfa7ecf7744" style="width: 100.0%; height: 100.0%;">Centro Comercial Bulevar 4.71215, -74.07103</div>`)[0];
+                popup_2e6b54c536cf69a86483129eea5ec55b.setContent(html_731ac824e01d802b45da6dfa7ecf7744);
+            
+        
+
+        marker_c951533849e1fabcbb2ed473e37da9c8.bindPopup(popup_2e6b54c536cf69a86483129eea5ec55b)
+        ;
+
+        
+    
+    
+            var poly_line_914d990da073651c189b7c48ba33b168 = L.polyline(
+                [[4.763056, -74.0456679], [4.7018081, -74.0412263]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_f40e4c52fb1140adbd8830785749a9be = L.polyline(
+                [[4.763056, -74.0456679], [4.7411318, -74.0647445]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_aee357cb61832ea9ac3e34a9fd4d9f53 = L.polyline(
+                [[4.763056, -74.0456679], [4.7121455, -74.0710275]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_fe4ca45ff3c93ee8159f0bbe8702863a = L.polyline(
+                [[4.7018081, -74.0412263], [4.7411318, -74.0647445]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_eb2695d6dcd03f820c4235b8212daa67 = L.polyline(
+                [[4.7018081, -74.0412263], [4.7121455, -74.0710275]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_6e752fe2a01fbdeded08bd09fe063995 = L.polyline(
+                [[4.7411318, -74.0647445], [4.7121455, -74.0710275]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            var poly_line_1cd8462d4c5979796c46a73600b57332 = L.polyline(
+                [[4.763056, -74.0456679], [4.7411318, -74.0647445]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            poly_line_1cd8462d4c5979796c46a73600b57332.bindTooltip(
+                `<div>
+                     Centro Comercial Santafe → Arturo Calle 153
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ff7ac71af27cb536210b7b62c0e268c1 = L.polyline(
+                [[4.7411318, -74.0647445], [4.7121455, -74.0710275]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            poly_line_ff7ac71af27cb536210b7b62c0e268c1.bindTooltip(
+                `<div>
+                     Arturo Calle 153 → Centro Comercial Bulevar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_baa4f503e1f6643a8347800744de3d15 = L.polyline(
+                [[4.7121455, -74.0710275], [4.7018081, -74.0412263]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_66041c9afbc9169dc8a01e96c1bacde3);
+        
+    
+            poly_line_baa4f503e1f6643a8347800744de3d15.bindTooltip(
+                `<div>
+                     Centro Comercial Bulevar → Centro Comercial Unicentro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
